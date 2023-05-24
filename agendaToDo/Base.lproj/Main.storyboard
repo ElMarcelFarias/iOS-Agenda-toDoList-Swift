@@ -25,14 +25,18 @@
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="09:30" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuv-5x-67f">
                                             <rect key="frame" x="12.333333333333332" y="12" width="62.666666666666671" height="30"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="tuv-5x-67f" secondAttribute="height" multiplier="31:15" id="9mV-yG-8bX"/>
+                                            </constraints>
                                             <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="25"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="06/12/2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghE-nO-ahV">
-                                            <rect key="frame" x="13.666666666666664" y="41.333333333333336" width="59.999999999999993" height="14"/>
+                                            <rect key="frame" x="13.666666666666664" y="41.333333333333336" width="59.999999999999993" height="14.333333333333336"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="iRP-90-gps"/>
+                                                <constraint firstAttribute="width" secondItem="ghE-nO-ahV" secondAttribute="height" multiplier="59:14" id="o0k-iB-QJc"/>
                                             </constraints>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleCaption2"/>
                                             <nil key="textColor"/>
