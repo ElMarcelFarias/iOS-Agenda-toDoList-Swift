@@ -8,10 +8,12 @@
 import UIKit
 
 let category = Category(name: "Studies", color: UIColor.red)
+let categorySwift = Category(name: "Swift iOS", color: UIColor.orange)
 
 let tasks: [Task] = [
     Task(name: "Finalizar projeto de todo list da DIO", date: Date(), category: category),
-    Task(name: "Estudar desenvolvimento mobile nativo por 4 horas amanhã", date: Date(), category: category)
+    Task(name: "Estudando Swift", date: Date(), category: categorySwift),
+    Task(name: "Estudar desenvolvimento mobile nativo por 4 horas amanhã", date: Date(), category: categorySwift)
 ]
 
 class TasksTableViewController: UITableViewController {
