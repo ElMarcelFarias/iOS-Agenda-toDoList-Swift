@@ -93,11 +93,47 @@
                             <outlet property="delegate" destination="JpO-YK-2ae" id="vvA-97-OUo"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="My Tasks" id="bWH-iN-nbO"/>
+                    <navigationItem key="navigationItem" title="My Tasks" id="bWH-iN-nbO">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="plus" catalog="system" id="jrD-WU-9ei">
+                            <color key="tintColor" red="0.1176470518" green="0.109803915" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <segue destination="sQp-xt-F3k" kind="show" id="iXi-x6-vcB"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VhX-Tu-iJl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="572" y="58.374384236453203"/>
+        </scene>
+        <!--Table View Controller-->
+        <scene sceneID="Mmx-4v-Z1F">
+            <objects>
+                <tableViewController id="sQp-xt-F3k" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="BGt-Ir-I6L">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="8zX-dD-neN">
+                                <rect key="frame" x="0.0" y="44.666666030883789" width="375" height="43.666667938232422"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8zX-dD-neN" id="xHn-wg-QQR">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.666667938232422"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="sQp-xt-F3k" id="POK-QX-L1O"/>
+                            <outlet property="delegate" destination="sQp-xt-F3k" id="Fzs-t7-Wzl"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="cAT-ba-sWg"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lb6-Qu-NVb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1394" y="58"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="2sx-6f-Lak">
@@ -117,6 +153,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="plus" catalog="system" width="128" height="113"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
