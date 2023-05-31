@@ -17,6 +17,8 @@
 		473143A32A1E94E8005D3790 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473143A22A1E94E8005D3790 /* Task.swift */; };
 		473143A52A1E9589005D3790 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473143A42A1E9589005D3790 /* Category.swift */; };
 		473143A82A1E9B7E005D3790 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473143A72A1E9B7E005D3790 /* TaskTableViewCell.swift */; };
+		47C541122A27CB13008951A6 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C541112A27CB13008951A6 /* CategoriesTableViewController.swift */; };
+		47C541152A27CB82008951A6 /* CategoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C541142A27CB82008951A6 /* CategoryRepository.swift */; };
 		47D35EB02A27B6D400448630 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D35EAF2A27B6D400448630 /* CreateTaskViewController.swift */; };
 		47D35EB22A27BA5300448630 /* TaskDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D35EB12A27BA5300448630 /* TaskDescriptionTableViewCell.swift */; };
 		47D35EB42A27BA7600448630 /* DateTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D35EB32A27BA7600448630 /* DateTimeTableViewCell.swift */; };
@@ -35,6 +37,8 @@
 		473143A22A1E94E8005D3790 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		473143A42A1E9589005D3790 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		473143A72A1E9B7E005D3790 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		47C541112A27CB13008951A6 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
+		47C541142A27CB82008951A6 /* CategoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRepository.swift; sourceTree = "<group>"; };
 		47D35EAF2A27B6D400448630 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 		47D35EB12A27BA5300448630 /* TaskDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDescriptionTableViewCell.swift; sourceTree = "<group>"; };
 		47D35EB32A27BA7600448630 /* DateTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeTableViewCell.swift; sourceTree = "<group>"; };
@@ -70,6 +74,7 @@
 		473143852A1E4504005D3790 /* agendaToDo */ = {
 			isa = PBXGroup;
 			children = (
+				47C541132A27CB6E008951A6 /* Repositories */,
 				473143A12A1E8468005D3790 /* Models */,
 				4731439D2A1E4FA3005D3790 /* Controllers */,
 				473143862A1E4504005D3790 /* AppDelegate.swift */,
@@ -89,6 +94,7 @@
 				473143A62A1E9B58005D3790 /* Cells */,
 				4731439E2A1E4FC8005D3790 /* TasksTableViewController.swift */,
 				47D35EAF2A27B6D400448630 /* CreateTaskViewController.swift */,
+				47C541112A27CB13008951A6 /* CategoriesTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -110,6 +116,14 @@
 				47D35EB32A27BA7600448630 /* DateTimeTableViewCell.swift */,
 			);
 			path = Cells;
+			sourceTree = "<group>";
+		};
+		47C541132A27CB6E008951A6 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				47C541142A27CB82008951A6 /* CategoryRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,9 +202,11 @@
 				473143912A1E4504005D3790 /* agendaToDo.xcdatamodeld in Sources */,
 				473143872A1E4504005D3790 /* AppDelegate.swift in Sources */,
 				47D35EB42A27BA7600448630 /* DateTimeTableViewCell.swift in Sources */,
+				47C541122A27CB13008951A6 /* CategoriesTableViewController.swift in Sources */,
 				473143A32A1E94E8005D3790 /* Task.swift in Sources */,
 				4731439F2A1E4FC8005D3790 /* TasksTableViewController.swift in Sources */,
 				473143892A1E4504005D3790 /* SceneDelegate.swift in Sources */,
+				47C541152A27CB82008951A6 /* CategoryRepository.swift in Sources */,
 				473143A52A1E9589005D3790 /* Category.swift in Sources */,
 				47D35EB02A27B6D400448630 /* CreateTaskViewController.swift in Sources */,
 			);

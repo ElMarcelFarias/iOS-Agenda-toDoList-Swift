@@ -58,5 +58,14 @@ class CreateTaskViewController: UITableViewController {
         print("XCODE É UMA MERDA")
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toCategoriesTableViewController" {
+            let categoriesController = segue.destination as! CategoriesTableViewController
+            categoriesController.choosenCategory = { category in
+                
+            }
+        }
+    }
+    
     
 }
