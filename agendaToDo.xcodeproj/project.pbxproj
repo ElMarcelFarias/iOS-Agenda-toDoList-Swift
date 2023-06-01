@@ -19,6 +19,7 @@
 		473143A82A1E9B7E005D3790 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473143A72A1E9B7E005D3790 /* TaskTableViewCell.swift */; };
 		47C541122A27CB13008951A6 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C541112A27CB13008951A6 /* CategoriesTableViewController.swift */; };
 		47C541152A27CB82008951A6 /* CategoryRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C541142A27CB82008951A6 /* CategoryRepository.swift */; };
+		47C541172A28D163008951A6 /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47C541162A28D163008951A6 /* TaskRepository.swift */; };
 		47D35EB02A27B6D400448630 /* CreateTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D35EAF2A27B6D400448630 /* CreateTaskViewController.swift */; };
 		47D35EB22A27BA5300448630 /* TaskDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D35EB12A27BA5300448630 /* TaskDescriptionTableViewCell.swift */; };
 		47D35EB42A27BA7600448630 /* DateTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D35EB32A27BA7600448630 /* DateTimeTableViewCell.swift */; };
@@ -39,6 +40,7 @@
 		473143A72A1E9B7E005D3790 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
 		47C541112A27CB13008951A6 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
 		47C541142A27CB82008951A6 /* CategoryRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRepository.swift; sourceTree = "<group>"; };
+		47C541162A28D163008951A6 /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
 		47D35EAF2A27B6D400448630 /* CreateTaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTaskViewController.swift; sourceTree = "<group>"; };
 		47D35EB12A27BA5300448630 /* TaskDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDescriptionTableViewCell.swift; sourceTree = "<group>"; };
 		47D35EB32A27BA7600448630 /* DateTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTimeTableViewCell.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				47C541142A27CB82008951A6 /* CategoryRepository.swift */,
+				47C541162A28D163008951A6 /* TaskRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 				473143A32A1E94E8005D3790 /* Task.swift in Sources */,
 				4731439F2A1E4FC8005D3790 /* TasksTableViewController.swift in Sources */,
 				473143892A1E4504005D3790 /* SceneDelegate.swift in Sources */,
+				47C541172A28D163008951A6 /* TaskRepository.swift in Sources */,
 				47C541152A27CB82008951A6 /* CategoryRepository.swift in Sources */,
 				473143A52A1E9589005D3790 /* Category.swift in Sources */,
 				47D35EB02A27B6D400448630 /* CreateTaskViewController.swift in Sources */,
